@@ -1,3 +1,4 @@
+import PySimpleGUI as sg
 
 import random
 
@@ -5,7 +6,7 @@ vittorie = 0
 
 sconfitte = 0
 
-iterations = 5000
+iterations = 50000
 
 for games in range(0, iterations):
 
@@ -87,3 +88,6 @@ print(f'\nSono state calcolate {iterations} iterazioni')
 print('Le percentuali sono:')
 print(f'Vittoria:{(vittorie/iterations)*100}%')
 print(f'Sconfitta:{(sconfitte/iterations)*100}%')
+
+
+input('\n\nPremi qualunque tasto per uscire...')

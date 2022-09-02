@@ -23,9 +23,9 @@ for games in range(0, iterations):
 
     # print(f'box_slip_array:{box_slip_arr}')
 
-    scatole_numerate = [pos]
+        scatole_numerate = [pos]
 
-    fogli_casuali = num_casu[pos]
+        fogli_casuali = num_casu[pos]
 
     loop_length = []                                      # empty array. Every time a game loop closes, the loop's length gets appended to this array.
 
